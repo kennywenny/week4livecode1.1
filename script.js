@@ -1,8 +1,5 @@
 function max(first, second) {
-  if (first > second) {
-    return first
-  }
-  return second
+  return first > second ? first : second;
 }
 
 // First test
